@@ -14,9 +14,9 @@ class ThreadUserDefinedJoin
 
         Demo dobj1 = new Demo();
         Demo dobj2 = new Demo();
-
+  
         dobj1.setName("first");
-        dobj1.setName("second");
+        dobj2.setName("second");
 
         dobj1.start();  // jvm part i.e worker -> work of scheduling
         dobj2.start();

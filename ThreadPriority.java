@@ -11,6 +11,7 @@ public class ThreadPriority
         int Priority = tobj.getPriority();
         System.out.println("Priority of current thread is : "+Priority);
         tobj.setPriority(10);
+        
         Priority = tobj.getPriority();
         System.out.println("Priority of current thread is : "+Priority);
     }

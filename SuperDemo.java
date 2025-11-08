@@ -30,7 +30,7 @@ class Demo extends Hello
         System.out.println("Inside display..."+i);      // 0
         System.out.println("Inside display..."+this.i); // 51       
         System.out.println("Inside display..."+super.i);// 52   // second use
-        this.i = a;                                             // third use   
+        //this.i = a;                                             // third use   
     }
 }
 

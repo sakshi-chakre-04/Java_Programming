@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J_12_SwitchDemo 
+public class SwitchDemo 
 {
     public static void main(String[] args) 
     {
